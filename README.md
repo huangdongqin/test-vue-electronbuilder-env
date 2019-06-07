@@ -1,29 +1,5 @@
-# test-vue-electronbuilder-env
+test electron:build process read .env.production file
+electron:server read .env.development file
 
-## Project setup
-```
-npm install
-```
+NOTE: NODE_ENV=production in .env when electron:build
 
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
-
-### Compiles and minifies for production
-```
-npm run build
-```
-
-### Run your tests
-```
-npm run test
-```
-
-### Lints and fixes files
-```
-npm run lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
