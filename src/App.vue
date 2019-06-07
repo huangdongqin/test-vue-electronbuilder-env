@@ -1,6 +1,6 @@
 <template>
   <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png">
+    <span>{{'CurEnv:'+CurEnv}}</span>
     <HelloWorld msg="Welcome to Your Vue.js App"/>
   </div>
 </template>
@@ -12,6 +12,11 @@ export default {
   name: 'app',
   components: {
     HelloWorld
+  },
+  data:function(){
+    return {
+      CurEnv:process.env.VUE_APP_TestVal
+    }
   }
 }
 </script>
